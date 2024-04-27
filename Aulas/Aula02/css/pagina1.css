@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Gluten:wght@100..900&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Passion+One:wght@400;700;900&display=swap');
+
+body {
+    background-color: #06ccd7;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gluten", cursive;
+    color: gold
+}
+
+img {
+    width: 500px;
+    height: 300px;
+
+    /*Código para centralizar imagem e botão*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, p {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Lalezar", system-ui;
+    color: white;
+}
+
+p {
+    color: #0a29a3;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 30px;
+    width: 150px;
+    border: #ffcd3a;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(#fff557,#ffcd3a);
+    transition: 2s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(#086cb9,#0a29a3)
+}
+
+button a {
+    color: black;
+    text-decoration: underline;
+}
+
+button a:hover {
+    color: white;
+    text-decoration: underline;
+}
